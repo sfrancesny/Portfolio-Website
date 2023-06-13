@@ -1,48 +1,54 @@
+/* Global styles */
 * {
     padding: 0;
     margin: 0;
-}  
-
-#email {
+}
+  
+  /* Styling for the email link */
+  #email {
     display: inline-block;
     margin-top: 12px;
     font-size: 18px;
     color: white;
     transform: translateY(26px);
 }
-
-@media screen and (max-width: 480px) {
+  
+  /* Media query for screens with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
     nav {
-        width: 50%;
-        font-size: 16px;
-        margin-bottom: 10px;
+      width: 50%;
+      font-size: 16px;
+      margin-bottom: 10px;
     }
 }
-
-body {
+  
+  /* Body styles */
+  body {
     background-image: url(IMG_9272.jpg);
     background-size: cover;
     width: 100%;
 }
-
-nav {
+  
+  /* Navigation styles */
+  nav {
     display: inline-block;
     width: 100%;
     padding: 15px;
     background-image: url(Stars-ProfileBio.jpg);
     border: 5px solid black;
 }
-
-a {
+  
+  a {
     color: white;
     text-decoration: none;
 }
   
-a:hover {
+  a:hover {
     font-weight: bold;
     color: blue;
 }
-
+  
+  /* Icon styles */
 .icon {
     display: inline;
     float: left;
@@ -54,34 +60,35 @@ a:hover {
     margin-right: 20px;
     transform: translateY(26px);
 }
-
-.icon img {
+  
+  .icon img {
     display: block;
     align-items: left;
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-
-#navcontain {
+  
+  #navcontain {
     text-align: center;
     margin-right: 15px;
 }
-
-.social-header {
+  
+  /* Social links styles */
+  .social-header {
     display: flex;
     justify-content: end;
     text-align: center;
     margin-right: 25px;
 }
-
-.social-links {
+  
+  .social-links {
     display: inline-block;
     transform: translateY(-30px);
     margin-right: 20px;
 }
-
-.social-logo {
+  
+  .social-logo {
     display: inline;
     float: right;
     width: 30px;
@@ -89,16 +96,17 @@ a:hover {
     overflow: hidden;
     border-radius: 50%;
 }
-
-.social-logo img {
+  
+  .social-logo img {
     display: inline-block;
     align-items: right;
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-
-.nav-item { 
+  
+  /* Navigation item styles */
+  .nav-item {
     display: inline;
     font-size: 24px;
     padding: 15px;
@@ -106,14 +114,16 @@ a:hover {
     margin-bottom: 0%;
     margin-right: 50px;
 }
-
-span {
+  
+  /* Span styles */
+  span {
     vertical-align: middle;
     text-align: center;
     text-shadow: 15px 15px 15px;
 }
-
-h1 {
+  
+  /* Heading styles */
+  h1 {
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -123,14 +133,27 @@ h1 {
     width: 3000px;
     height: auto;
     margin: 25px;
-} 
-
-.profile-container { 
+}
+  
+  /* Profile container styles */
+  .profile-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0%;
-} 
+}
+  
+  /* Profile styles */
+  .profile {
+    display: inline-block;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 25px;
+    background-image: url(EditProfile_updated.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 50
+}
 
 .profile {
     display: inline-block;
@@ -158,6 +181,7 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .bio-info,
@@ -268,13 +292,6 @@ form {
     border-radius: 20px;
 }
 
-.form-control {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    /* float: center; */
-}   
-
 label {
     display: inline-block;
     width: 100px;
@@ -312,16 +329,10 @@ button {
 } 
 
 .footer-text {
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    text-align: center; /* Center align text */
+    color: white; /* Text color */
+    font-family: sans-serif; /* Font family */
+    font-size: 14px; /* Font size */
+    margin-top: 15px; /* Margin space at the top */
+    margin-bottom: 15px; /* Margin space at the bottom */
 }
-
-
-
-
-
-
