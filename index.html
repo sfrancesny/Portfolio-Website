@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet-02-02Challenge5-12.css">
     <title>Sonia Frances</title>
 </head>
 <body>
@@ -10,7 +10,7 @@
     <div class="nav">
         <nav>
             <ul>
-                <li id="email"><a href="mailto: sfnyenkan@students.Randolph.edu" class="a:hover">sfnyenkan@students.randolph.edu</a></li>
+                <li class="email"><a href="mailto: sfnyenkan@students.Randolph.edu" class="a:hover">sfnyenkan@students.randolph.edu</a></li>
                 <li class="icon"><img src="IMG_6734.JPG" alt="Profile Avatar"></li>
             </ul>
             <ul>
@@ -22,7 +22,7 @@
     <div>
     <div class="social-header">    
                 <li class="social-links social-logo"><a href="https://github.com/sfrancesny" class="a:hover"><img src="file-folder2.PNG" alt="Vector image of a folder"></a></li>
-                <li class="social-links social-logo"><a href="https://www.facebook.com/Minorities-Love-Tech" class="a:hover"><img src="FacebookLogo.PNG" alt="Facebook Logo"></a></li>
+                <li class="social-links social-logo"><a href="#" class="a:hover"><img src="FacebookLogo.PNG" alt="Facebook Logo"></a></li>
                 <li class="social-links social-logo"><a href="https://instagram.com/sonianyenkan" class="a:hover"><img src="InstaLogo.PNG" alt="Instagram Logo"></a></li>
      </div>               
         </nav>
@@ -38,7 +38,7 @@
     <div class="bio-position">
         <div class="bio-info">
             <h2 id="bio-header">What's to know?</h2>
-            <h3 class="bio-text">Hi, I go by Sonia Frances. I am currently a student at Randolph Community College studying Information Technology (c/o 2024). My significant other and I own a restaurant in Asheboro called Gather. We sell the freshest tastiest Caribbean Asian Fusion Soul cuisine in all of North Carolina. I am responsibility for ad & marketing and growing our social media presence on Instagram and Facebook. On a regular basis I am most likely in the kitchen rolling sushi or frying chicken. I enjoy creating applications, roller-skating, and eating exotic cuisines. I want to eventually travel the world while also helping others in need. I believe in racial exclusivity in the tech industry and will continue to pass on the education I have received (and continue to receive) to the masses. </h3>
+            <h3 class="bio-text">Hi, I go by Sonia Frances. I am currently a student at Randolph Community College studying Information Technology (c/o 2024). My significant other and I own a restaurant in Asheboro called Gather. We sell the freshest tastiest Caribbean Asian Fusion Soul cuisine in all of North Carolina. I am responsibility for ad & marketing and growing our social media presence on Instagram and Facebook. On a regular basis I am most likely in the kitchen rolling sushi or frying chicken. I enjoy creating applications, roller-skating, and eating exotic cuisines. I want to eventually travel the world while also helping others in need. I believe in racial exclusivity in the tech industry and will continue to pass on the education I’ve received (and continue to receive) to the masses.</h3>
     </div> 
     </div>
     <div class="mychildren-container">
@@ -59,22 +59,26 @@
     </div>
     </div>     
     <div>
-    <section id="contact" class="text.right">
+    <section id="contact">
         <h3 class="text-center" id="contact-headerstyle">Contact Me</h3>
         <form>
-            <ul>
-            <li>
-                <label class="text-right" for="name">Name:</label>
-                <input type="text" id="name" name="user-name">
-            </li>
-            <li>
-                <label class="text-right" for="email">Email:</label>
-                <input type="text" id="email" name="user-email">
-            </li>
-            <br>
-            <li>
-                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
-            </li>
+            <ul class="contact-form">
+                <div class="form-field">
+                    <li> 
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                </div>
+                <div class="form-field">
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </div>
+                <div class="form-field">
+                    <li><label class="text-right" for="message">Message:</label>
+                    <textarea id="message" name="user-message"></textarea></li>
+                </div>
             </ul>
     <div class="text-center">
         <button class="a:hover" type="submit">SEND</button>
@@ -90,3 +94,4 @@
 </div>
 </body>
 </html> 
+
