@@ -2,52 +2,54 @@
 * {
     padding: 0;
     margin: 0;
-}
-  
-  /* Styling for the email link */
-  #email {
+}  
+
+ /* Styling for the email link */
+.email {
     display: inline-block;
     margin-top: 12px;
     font-size: 18px;
     color: white;
     transform: translateY(26px);
 }
-  
+
   /* Media query for screens with a maximum width of 480px */
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     nav {
-      width: 50%;
-      font-size: 16px;
-      margin-bottom: 10px;
+        width: 50%;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 }
-  
+
   /* Body styles */
-  body {
+body {
     background-image: url(IMG_9272.jpg);
     background-size: cover;
     width: 100%;
 }
-  
+
+
   /* Navigation styles */
-  nav {
+nav {
     display: inline-block;
     width: 100%;
     padding: 15px;
     background-image: url(Stars-ProfileBio.jpg);
     border: 5px solid black;
 }
-  
-  a {
+
+a {
     color: white;
     text-decoration: none;
 }
   
-  a:hover {
+a:hover {
     font-weight: bold;
     color: blue;
 }
-  
+
+
   /* Icon styles */
 .icon {
     display: inline;
@@ -60,35 +62,35 @@
     margin-right: 20px;
     transform: translateY(26px);
 }
-  
-  .icon img {
+
+.icon img {
     display: block;
     align-items: left;
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-  
-  #navcontain {
+
+ /* Navigation item styles */
+#navcontain {
     text-align: center;
     margin-right: 15px;
 }
-  
-  /* Social links styles */
-  .social-header {
+
+.social-header {
     display: flex;
     justify-content: end;
     text-align: center;
     margin-right: 25px;
 }
-  
-  .social-links {
+
+.social-links {
     display: inline-block;
     transform: translateY(-30px);
     margin-right: 20px;
 }
-  
-  .social-logo {
+
+.social-logo {
     display: inline;
     float: right;
     width: 30px;
@@ -96,17 +98,18 @@
     overflow: hidden;
     border-radius: 50%;
 }
-  
-  .social-logo img {
+
+.social-logo img {
     display: inline-block;
     align-items: right;
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-  
-  /* Navigation item styles */
-  .nav-item {
+
+
+ /* Navigation item styles */
+.nav-item { 
     display: inline;
     font-size: 24px;
     padding: 15px;
@@ -114,16 +117,16 @@
     margin-bottom: 0%;
     margin-right: 50px;
 }
-  
+
   /* Span styles */
-  span {
+span {
     vertical-align: middle;
     text-align: center;
     text-shadow: 15px 15px 15px;
 }
-  
+
   /* Heading styles */
-  h1 {
+h1 {
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -133,28 +136,18 @@
     width: 3000px;
     height: auto;
     margin: 25px;
-}
-  
+} 
+
+
   /* Profile container styles */
-  .profile-container {
+.profile-container { 
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0%;
-}
-  
-  /* Profile styles */
-  .profile {
-    display: inline-block;
-    align-items: center;
-    height: 500px;
-    margin-bottom: 25px;
-    background-image: url(EditProfile_updated.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 50
-}
+} 
 
+/* Profile styles */
 .profile {
     display: inline-block;
     align-items: center;
@@ -181,7 +174,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 15px;
 }
 
 .bio-info,
@@ -283,8 +275,12 @@ section {
     border-top: 1px solid black;
     background-image: url(Stars-ProfileBio.jpg);
 }
-  
+
 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     width: 500px;
     padding: 10px;
@@ -292,23 +288,39 @@ form {
     border-radius: 20px;
 }
 
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
 label {
     display: inline-block;
     width: 100px;
+    text-align: right;
 }
-    
-input, 
+
+input,
 textarea {
     box-sizing: border-box;
     width: 300px;
     border: 1px solid white;
 }
-  
+
 textarea {
     vertical-align: top;
     height: 60px;
 }
-    
+
+.form-field {
+    padding: 10px; 
+}
+
 button {
     margin-top: 40px;
     height: 40px;
@@ -329,10 +341,10 @@ button {
 } 
 
 .footer-text {
-    text-align: center; /* Center align text */
-    color: white; /* Text color */
-    font-family: sans-serif; /* Font family */
-    font-size: 14px; /* Font size */
-    margin-top: 15px; /* Margin space at the top */
-    margin-bottom: 15px; /* Margin space at the bottom */
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
