@@ -37,4 +37,4 @@ This following website is intended to be a personal profolio with a descriptive 
 <img src="Portfolio4.png"/> 
 
 
-Link: https://sfrancesny.github.io/Profolio-Website/
+Link: https://sfrancesny.github.io/Portfolio-Website/
