@@ -123,6 +123,7 @@ h1 {
     width: 3000px;
     height: auto;
     margin: 25px;
+    margin-left: 60px;
 } 
 
 .profile-container { 
@@ -153,12 +154,18 @@ h1 {
     text-shadow: 15px 15px 15px;
 }
 
+.bio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .bio-position { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Assuming you want a specific height for the container */
 }
 
 .bio-info,
@@ -183,8 +190,7 @@ h1 {
     }
 }
 
-#bio-header,
-#mychildren-header {
+#bio-header {
     color: white;
     font-size: 42px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -193,24 +199,41 @@ h1 {
     text-align: center;
     justify-content: center;
     background-image: url(Stars-ProfileBio.jpg);
-    width: 645px;
+    width: 740px;
+    margin-left: -40px;
+}
+
+#mychildren-header {
+  color: white;
+  font-size: 42px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1080;
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  background-image: url(Stars-ProfileBio.jpg);
+  margin-bottom: 20px;
+  width: 740px;
+  margin-left: 30px;
 }
 
 .bio-text {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    background-color: black;
-    border: 48px solid black;
-    letter-spacing: 5px;
-    width: 550px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: 48px solid black;
+  letter-spacing: 5px;
+  width: 645px;
+  height: 365px;
+  margin-left: -40px;
 }
 
 .mychildren-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
+    margin-top: 20px;
 } 
 
 .projectcontainer {
@@ -259,6 +282,7 @@ section {
     padding: 20px 10px 40px 10px;
     border-top: 1px solid black;
     background-image: url(Stars-ProfileBio.jpg);
+    margin-top: 30px;
 }
 
 form {
@@ -267,10 +291,15 @@ form {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 500px;
+    width: 450px;
     padding: 10px;
-    border: 10px solid midnightblue;
+    background-color: midnightblue;
     border-radius: 20px;
+}
+
+#contact-headerstyle {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 form ul {
@@ -306,12 +335,20 @@ textarea {
     padding: 10px; 
 }
 
+.blank-line-textbox::placeholder {
+  color: transparent; /* Make the text color transparent */
+}
+
 button {
-    margin-top: 40px;
+    margin-top: 5px;
     height: 40px;
     width: 120px;
-    background-color: midnightblue;
+    background-color: black;
     color: #FDF8F5;
+}
+
+button:hover {
+  color: blue;
 }
 
 .text-center {
