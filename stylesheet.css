@@ -165,7 +165,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px; /* Assuming you want a specific height for the container */
+  height: 500px; /* Assuming you want a specific height for the container*/
+  margin-bottom: 100px;
 }
 
 .bio-info,
@@ -239,6 +240,7 @@ h1 {
 .projectcontainer {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .contact-container {
