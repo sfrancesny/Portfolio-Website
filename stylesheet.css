@@ -28,7 +28,6 @@ body {
 nav {
     display: inline-block;
     width: 100%;
-    padding: 15px;
     background-image: url(Stars-ProfileBio.jpg);
     border: 5px solid black;
 }
@@ -126,33 +125,68 @@ h1 {
     margin-left: 60px;
 } 
 
-.profile-container { 
+.profile-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0%;
-} 
+    flex-direction: column;
+}
 
 .profile {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 500px;
-    margin-bottom: 25px;
+    text-align: center;
     background-image: url(EditProfile_updated.jpg);
     background-size: cover;
     background-position: center;
     border: 50px solid black;
     width: 600px;
     height: 600px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+.profile-name {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+  .profile h1 {
+    font-size: 80px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .profile .profile-points {
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 15px 15px 15px;
+    background-color: black;
 }
 
 .profile-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.job-title {
+    display: inline-block;
     font-size: 15px;
     color: white;
-    margin-top: 10px;
     letter-spacing: 5px;
     text-shadow: 15px 15px 15px;
-}
+    background-color: blue;
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin: 0;
+} 
 
 .bio-container {
   display: flex;
@@ -176,8 +210,6 @@ h1 {
     text-align: center;
     width: 500px;
     height: 550px;
-    padding: 0%;
-    margin-bottom: 0;
     margin-right: 125px;
 }
 
@@ -335,6 +367,7 @@ textarea {
 
 .form-field {
     padding: 10px; 
+    font-weight: 100px;
 }
 
 .blank-line-textbox::placeholder {
@@ -359,6 +392,7 @@ button:hover {
 }
 
 .text-right {
+    font-weight: 100px;
     text-align: right;
     color: white;
     list-style: none;
