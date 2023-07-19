@@ -70,7 +70,7 @@
     <div>
     <section id="contact">
         <h3 class="text-center" id="contact-headerstyle">Contact Me</h3>
-        <form>
+        <form id="contact-form">
             <ul class="contact-form">
                 <div class="form-field">
                     <li> 
@@ -101,5 +101,28 @@
     <h3 class="footer-text">Copyright sfrancesny.github.io All Rights Reserved. © 2023</h3>
   </footer>
 </div>
+    <script>
+    // Function to handle form submission
+    function submitForm(event) {
+        event.preventDefault(); // Prevent the form from submitting and refreshing the page
+
+        // Get the values of the form fields
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // Simple validation (you can add more sophisticated validation as per your requirements)
+        if (!name || !email || !message) {
+            alert('Please fill in all fields.');
+            return;
+        }
+
+        // Display a success message and clear the form
+        alert('Form submitted successfully!');
+        document.getElementById('contact-form').reset();
+    }
+    // Attach the submitForm function to the form's submit event
+    document.getElementById('contact-form').addEventListener('submit', submitForm);
+</script>
 </body>
 </html> 
