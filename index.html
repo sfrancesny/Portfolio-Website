@@ -22,7 +22,7 @@
     <div>
     <div class="social-header">    
                 <li class="social-links social-logo"><a href="https://github.com/sfrancesny" class="a:hover"><img src="file-folder2.PNG" alt="Vector image of a folder"></a></li>
-                <li class="social-links social-logo"><a href="https://www.facebook.com/thebunhutnc/" class="a:hover"><img src="FacebookLogo.PNG" alt="Facebook Logo"></a></li>
+                <li class="social-links social-logo"><a href="#" class="a:hover"><img src="FacebookLogo.PNG" alt="Facebook Logo"></a></li>
                 <li class="social-links social-logo"><a href="https://instagram.com/sonianyenkan" class="a:hover"><img src="InstaLogo.PNG" alt="Instagram Logo"></a></li>
      </div>               
         </nav>
@@ -47,30 +47,43 @@
     <div class="bio-position">
         <div class="bio-info">
             <h2 id="bio-header">What's to know?</h2>
-            <h3 class="bio-text">Hi, I go by the names Sonia Frances. I am currently a student at Randolph Community College studying Information Technology (c/o 2024). My significant other and I own a restaurant in Asheboro called Gather. We sell the freshest tastiest Caribbean Asian Fusion Soul food in all of North Carolina. I am responsible for ad/marketing and growing our social media presence on Instagram and Facebook. On a regular basis I am most likely in the kitchen rolling sushi or frying chicken. I enjoy creating applications, roller-skating, and eating exotic cuisines. I want to eventually travel the world while also helping others in need. I believe in increasing racial exclusivity in the tech industry and will continue to pass on the education I receive to the masses.</h3>
+            <h3 class="bio-text">Hi, I go by Sonia Frances. I am currently a student at Randolph Community College studying Information Technology (c/o 2024). My significant other and I own a restaurant in Asheboro called Gather. We sell the freshest tastiest Caribbean Asian Fusion Soul cuisine in all of North Carolina. I am responsibility for ad & marketing and growing our social media presence on Instagram and Facebook. On a regular basis I am most likely in the kitchen rolling sushi or frying chicken. I enjoy creating applications, roller-skating, and eating exotic cuisines. I want to eventually travel the world while also helping others in need. I believe in racial exclusivity in the tech industry and will continue to pass on the education I’ve received (and continue to receive) to the masses.</h3>
     </div> 
     </div>
     <div class="mychildren-container">
         <h3 id="mychildren-header">Most Recent Newborns</h3>
     </div>
-    <div class="projectcontainer">
-    <div class="project1">
-        <img src="2023-07-10.png" alt="Screenshot of Password Generator API" />
-        <h3 class="project-link"><a href="https://sfrancesny.github.io/Password-Generator/" class="a:hover">Password Generator</a></h3>
+    <!-- <div> -->
+        <!-- Jokes For The Soul -->
+        <div class="centered-box">
+            <img src="Jokes-For-The-Soul.png" alt="Screenshot of Jokes for the Soul Application" />
+            <h3 class="project-link"><a href="https://sfrancesny.github.io/Joke-Translator/" class="a:hover">Jokes For The Soul</a></h3>
+        </div>
+
+        <div class="projectcontainer">
+        <!-- Project 1 -->
+        <div class="project1">
+            <img src="2023-07-10.png" alt="Screenshot of Password Generator API" />
+            <h3 class="project-link"><a href="https://sfrancesny.github.io/Password-Generator/" class="a:hover">Password Generator</a></h3>
+        </div>
+    
+        <!-- Project 2 -->
+        <div class="project2">
+            <img src="2023-07-10 (2).png" alt="Screenshot of Web Development Quiz API Project" />
+            <h3 class="project-link"><a href="https://sfrancesny.github.io/Web-Development-Quiz/" class="a:hover">Web Development Quiz</a></h3>
+        </div>
+    
+        <!-- Project 3 -->
+        <div class="project3">
+            <img src="2023-07-10 (3).png" alt="Screenshot of Work Day Scheduler API Project" />
+            <h3 class="project-link"><a href="https://sfrancesny.github.io/Work-Day-Scheduler/" class="a:hover">Work Planner API</a></h3>
+        </div>
     </div>
-    <div class="project2">
-        <img src="2023-07-10 (2).png" alt="Screenshot of Web Development Quiz API Project" />
-        <h3 class="project-link"><a href="https://sfrancesny.github.io/Web-Development-Quiz/" class="a:hover">Web Development Quiz</a></h3>
-    </div>
-    <div class="project3">
-        <img src="2023-07-10 (3).png" alt="Screenshot of Work Day Scheduler API Project" />
-        <h3 class="project-link"><a href="https://sfrancesny.github.io/Work-Day-Scheduler/" class="a:hover">Work Planner API</a></h3>
-    </div>
-    </div>     
+       
     <div>
     <section id="contact">
         <h3 class="text-center" id="contact-headerstyle">Contact Me</h3>
-        <form id="contact-form">
+        <form>
             <ul class="contact-form">
                 <div class="form-field">
                     <li> 
@@ -101,28 +114,5 @@
     <h3 class="footer-text">Copyright sfrancesny.github.io All Rights Reserved. © 2023</h3>
   </footer>
 </div>
-    <script>
-    // Function to handle form submission
-    function submitForm(event) {
-        event.preventDefault(); // Prevent the form from submitting and refreshing the page
-
-        // Get the values of the form fields
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-
-        // Simple validation (you can add more sophisticated validation as per your requirements)
-        if (!name || !email || !message) {
-            alert('Please fill in all fields.');
-            return;
-        }
-
-        // Display a success message and clear the form
-        alert('Form submitted successfully!');
-        document.getElementById('contact-form').reset();
-    }
-    // Attach the submitForm function to the form's submit event
-    document.getElementById('contact-form').addEventListener('submit', submitForm);
-</script>
 </body>
 </html> 
