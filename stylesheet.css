@@ -287,7 +287,7 @@ h1 {
     max-width: 100%; /* Ensure the image does not exceed the container width */
     display: block; /* Set the image to a block element to center it within its container */
     margin: 0 auto; /* This centers the image horizontally within the container */
-    transform: translate(5px);
+    transform: translate(15px);
 }
 
 .project1,
