@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: url(IMG_9272.jpg);
+    background-image: url(assets/IMG_9272.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -28,7 +28,7 @@ body {
 nav {
     display: inline-block;
     width: 100%;
-    background-image: url(Stars-ProfileBio.jpg);
+    background-image: url(assets/Stars-ProfileBio.jpg);
     border: 5px solid black;
 }
 
@@ -138,7 +138,7 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(EditProfile_updated.jpg);
+    background-image: url(assets/EditProfile_updated.jpg);
     background-size: cover;
     background-position: center;
     border: 50px solid black;
@@ -184,10 +184,9 @@ h1 {
     text-shadow: 15px 15px 15px;
     background-color: rgba(0, 0, 255, 0.5);
     border-radius: 10px;
-    border: 5px;
     margin: 0;
     transform: translateY(-50px);
-}
+} 
 
 .bio-container {
   display: flex;
@@ -200,7 +199,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px; /* Assuming you want a specific height for the container*/
+  height: 500px;
   margin-bottom: 100px;
 }
 
@@ -232,7 +231,7 @@ h1 {
     font-style: italic;
     text-align: center;
     justify-content: center;
-    background-image: url(Stars-ProfileBio.jpg);
+    background-image: url(assets/Stars-ProfileBio.jpg);
     width: 740px;
     margin-left: -40px;
 }
@@ -245,7 +244,7 @@ h1 {
   font-style: italic;
   text-align: center;
   justify-content: center;
-  background-image: url(Stars-ProfileBio.jpg);
+  background-image: url(assets/Stars-ProfileBio.jpg);
   margin-bottom: 20px;
   width: 740px;
   margin-left: 30px;
@@ -272,51 +271,52 @@ h1 {
 
 .projectcontainer {
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+    flex-wrap: wrap; /* Ensure projects wrap to the next line when the container is not wide enough */
+    justify-content: center; /* Center the projects horizontally */
 }
 
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
-    padding: 0%;
+.centered-box {
+    width: 600px;
+    border: 20px solid black;
+    text-align: center; /* Center the content inside the box horizontally */
+    margin: 0 auto; /* This centers the box horizontally */
+    margin-top: 10px; /* Add some margin around the box and on the top */
+}
+
+.centered-box img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    display: block; /* Set the image to a block element to center it within its container */
+    margin: 0 auto; /* This centers the image horizontally within the container */
 }
 
 .project1,
 .project2,
 .project3 {
-    display: inline-block;
+    flex: 0 0 300px; /* Set the width of each project box */
     text-align: center;
     margin: 10px;
     border: 20px solid black;
     background-color: black;
-    width: 300px;
-    height: 100%;
 }
 
 .project1 img,
 .project2 img,
 .project3 img {
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
-.projectlink {
+.project-link {
     border: 15px solid black;
     color: white;
     background-color: midnightblue;
-    text-align: center;
-    width: 25px;
-    height: auto;
 }
 
 section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
     border-top: 1px solid black;
-    background-image: url(Stars-ProfileBio.jpg);
+    background-image: url(assets/Stars-ProfileBio.jpg);
     margin-top: 30px;
 }
 
