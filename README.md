@@ -31,10 +31,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 This following website is intended to be a personal profolio with a descriptive 'about me' section, links to projects and social media accounts, and a contact form. 
 
  ## Screenshots
-<img src="Portfolio1.png"/>
-<img src="Portfolio2.png"/> 
-<img src="Portfolio3.png"/> 
-<img src="Portfolio-Contact.png"/> 
+<img src=""/>
+<img src=""/> 
+<img src=""/> 
+<img src=""/> 
 
 
 Link: https://sfrancesny.github.io/Portfolio-Website/
